@@ -28,3 +28,10 @@ server:
     timeout: 10
   tomcat:
       uri-encoding: UTF-8
+
+
+#设置所有端点不敏感
+endpoints:
+  sensitive: false
+#设置单个端点（/beans）不敏感
+#endpoints.beans.sensitive=false
