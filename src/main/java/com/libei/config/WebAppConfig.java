@@ -22,6 +22,7 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
                 .excludePathPatterns("/")
                 .excludePathPatterns("/user/login")
                 .excludePathPatterns("/user/register")
+                .excludePathPatterns("/demo/*")
                 .excludePathPatterns("/");
 
     }

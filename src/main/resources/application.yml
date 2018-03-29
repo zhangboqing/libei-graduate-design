@@ -3,8 +3,8 @@ spring:
 #    url: jdbc:mysql://127.0.0.1:3306/daotable?useUnicode=true&characterEncoding=UTF-8
 #    username: root
 #    password: 123
-#    url: jdbc:mysql://140.143.229.63:3306/xinx?useUnicode=true&characterEncoding=utf-8
-    url: jdbc:mysql://127.0.0.1:3306/xinx?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://140.143.229.63:3306/xinx?useUnicode=true&characterEncoding=utf-8
+#    url: jdbc:mysql://127.0.0.1:3306/xinx?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
