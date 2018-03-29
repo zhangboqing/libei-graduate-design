@@ -1,4 +1,4 @@
-package com.libei.config;
+package com.libei.config.othor;
 
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.context.annotation.Bean;

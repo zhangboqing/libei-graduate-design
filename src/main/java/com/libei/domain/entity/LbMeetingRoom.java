@@ -1,20 +1,20 @@
 package com.libei.domain.entity;
 
 public class LbMeetingRoom {
-    private Integer id;
+    private Integer roomId;
 
     private Integer roomNo;
 
-    private Integer isReserve;
+    private Integer roomCanInNumber;
 
-    private Integer memberId;
+    private String roomFacility;
 
-    public Integer getId() {
-        return id;
+    public Integer getRoomId() {
+        return roomId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setRoomId(Integer roomId) {
+        this.roomId = roomId;
     }
 
     public Integer getRoomNo() {
@@ -25,19 +25,19 @@ public class LbMeetingRoom {
         this.roomNo = roomNo;
     }
 
-    public Integer getIsReserve() {
-        return isReserve;
+    public Integer getRoomCanInNumber() {
+        return roomCanInNumber;
     }
 
-    public void setIsReserve(Integer isReserve) {
-        this.isReserve = isReserve;
+    public void setRoomCanInNumber(Integer roomCanInNumber) {
+        this.roomCanInNumber = roomCanInNumber;
     }
 
-    public Integer getMemberId() {
-        return memberId;
+    public String getRoomFacility() {
+        return roomFacility;
     }
 
-    public void setMemberId(Integer memberId) {
-        this.memberId = memberId;
+    public void setRoomFacility(String roomFacility) {
+        this.roomFacility = roomFacility;
     }
 }

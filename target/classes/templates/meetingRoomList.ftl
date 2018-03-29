@@ -31,21 +31,24 @@
 <tr>
 <th>会议室ID</th>
 <th>房间号</th>
-<th>空闲状态</th>
-<th>预定成员姓名、联系方式及身份</th>
+<th>能够容纳的人数</th>
+<th>房间设备</th>
+<th>当前预定人数</th>
     <th>操作</th>
 </tr>
 
      <#list meetingRoomList as p>
      <tr>
-     <td>${p.id}</td>
+     <td>${p.roomId}</td>
      <td>${p.roomNo}</td>
-     <td>${p.isReserveDesc}</td>
-     <td>${p.memberDesc}</td>
+     <td>${p.roomCanInNumber}</td>
+     <td>${p.roomFacility}</td>
+     <td>${p.currentReservedNum}</td>
          <td>
-         <a href="edit?id=${p.id}">编辑</a>
-         <a href="delete?id=${p.id}"> 删除</a>
-             <a href="orderPage?id=${p.id}"> 预定会议室</a>
+         <a href="edit?roomId=${p.roomId}">编辑</a>
+         <a href="delete?roomId=${p.roomId}"> 删除</a>
+             <a href="viewOrderRecordList?roomId=${p.roomId}"> 查看预定记录</a>
+             <a href="orderPage?roomId=${p.roomId}"> 预定会议室</a>
          </td>
      </tr>
      </#list>

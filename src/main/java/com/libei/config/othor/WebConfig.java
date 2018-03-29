@@ -1,4 +1,4 @@
-package com.libei.config;
+package com.libei.config.othor;
 
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

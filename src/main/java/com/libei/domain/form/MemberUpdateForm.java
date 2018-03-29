@@ -9,11 +9,17 @@ import lombok.Data;
 @Data
 public class MemberUpdateForm {
 
-    private Integer memberId;
+    private Integer userId;
 
-    private String name;
+    private String age;
+
+    private Integer sex;
+
+    private String classInfo;
+
+    private String stuNo;
+
+    private String realName;
 
     private String phone;
-
-    private String identity;
 }

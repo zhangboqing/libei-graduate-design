@@ -3,6 +3,7 @@ spring:
 #    url: jdbc:mysql://127.0.0.1:3306/daotable?useUnicode=true&characterEncoding=UTF-8
 #    username: root
 #    password: 123
+#    url: jdbc:mysql://140.143.229.63:3306/xinx?useUnicode=true&characterEncoding=utf-8
     url: jdbc:mysql://127.0.0.1:3306/xinx?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
@@ -11,7 +12,7 @@ spring:
     max-wait: 1000
     min-idle: 5
     initial-size: 5
- # \u63A7\u5236\u53F0\u989C\u8272\u63A7\u5236
+# \u63A7\u5236\u53F0\u989C\u8272\u63A7\u5236
     output.ansi.enabled: always
 #    mvc.static-path-pattern: /resources/**
 
@@ -28,3 +29,15 @@ server:
     timeout: 10
   tomcat:
       uri-encoding: UTF-8
+
+
+# 系统自带日志打印级别设置
+logging:
+  level.com.libei: debug
+  file: libei.log
+
+
+#spring.http.encoding.force: true
+#spring.http.encoding.charset: UTF-8
+#spring.http.encoding.enabled: true
+#server.tomcat.uri-encoding: UTF-8

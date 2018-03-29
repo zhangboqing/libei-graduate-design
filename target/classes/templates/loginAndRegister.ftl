@@ -820,6 +820,15 @@
 </div>
 
 <script>
+
+    $(document).ready(function(){
+        var message = "${message}";
+        if (message != null && message != '') {
+            alert(message);
+        }
+
+    })
+
     //to-do. dry-up & remove jq
     $('.select__label').click(function () {
         $('.select__label').removeClass('select__label--active');
@@ -859,7 +868,13 @@
 
 
             $.post("${base}/user/register",{"userName":userName,"password":password},function(result){
-                alert("注册成功");
+
+                if (result == "1") {
+                    alert("当前用户名已存在！！！");
+                } else {
+                    alert("注册成功");
+                }
+
                 window.location.href = "${base}/";
             });
 
@@ -869,9 +884,12 @@
 
             $.post("${base}/user/login",{"userName":userName,"password":password},function(result){
 
-                if (result == "success") {
+                if (result == "1") {
                     alert("登录成功");
-                    window.location.href = "${base}/index";
+                    window.top.location.href = "${base}/index2";
+                } else if (result == "2") {
+                    alert("登录成功");
+                    window.top.location.href = "${base}/index";
                 } else {
                     alert("用户名或密码错误，请重新输入！！！");
                 }

@@ -42,11 +42,31 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 <div class="form_boxC">
 <p>"<span class="f_cB">*</span>"号为必填项目</p>
 <table cellpadding="0" cellspacing="0">
-<tr>
-<th width="100">房间号 <span class="f_cB">*</span></th>
-<td><div class="txtbox floatL" style="width:100px;">
-    <input hidden="true" name="id" id="id" type="text" size="5" value="${meetingRoom.id}">
-    <input name="roomNo" id="roomNo" type="text" size="5" value="${meetingRoom.roomNo}"></div></td>
+<#--<tr>-->
+
+<#--<td><div class="txtbox floatL" style="width:100px;">-->
+    <input hidden="true" name="roomId" id="roomId" type="text" size="5" value="${meetingRoom.roomId}">
+    <tr>
+    <th width="100">房间号 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:80px;">
+            <!--<input hidden="true" name="id" id="id" type="text" size="20" >-->
+        ${meetingRoom.roomNo}
+    </tr>
+
+
+    <tr>
+        <th width="100">房间所能容纳的人数 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:80px;">
+            <!--<input hidden="true" name="id" id="id" type="text" size="20" >-->
+            <input name="roomCanInNumber" id="roomCanInNumber" type="text" size="5"  value="${meetingRoom.roomCanInNumber}" ></div></td>
+    </tr>
+
+    <tr>
+        <th width="100">所具有的设备 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:500px;">
+            <!--<input hidden="true" name="id" id="id" type="text" size="20" >-->
+            <input name="roomFacility" id="roomFacility" type="text" size="60" value="${meetingRoom.roomFacility}" ></div></td>
+    </tr>
 </tr>
 
 </table>
@@ -56,22 +76,25 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 <div id="BtmBtn">
 <div class="btn_box floatR"><input onclick="checkAndSubmit()"  name="" type="button" value="提交" onmousemove="this.className='input_move'" onmouseout="this.className='input_out'"></div>
 </div>
-</div>
 <!-- /Popup -->
 </body>
 
 
 <script type="text/javascript">
     function checkAndSubmit(){
-        var roomNo = document.getElementById('roomNo').value.trim();
-        var id = document.getElementById('id').value.trim();
+        var roomId = document.getElementById('roomId').value.trim();
+        var roomCanInNumber = document.getElementById('roomCanInNumber').value.trim();
+        var roomFacility = document.getElementById('roomFacility').value.trim();
 
-        if (roomNo == null || roomNo == '') {
-            alert("房间号不能为空！！！")
+        if (roomCanInNumber == null || roomCanInNumber == '') {
+            alert("填写房间可容纳的人数！！！")
+            return;
+        } else if (roomFacility == null || roomFacility == '') {
+            alert("请填写房间所具备的设备！！！")
             return;
         }
 
-        $.post("update",{"id":id,"roomNo":roomNo},function(result){
+        $.post("update",{"roomId":roomId,"roomCanInNumber":roomCanInNumber,"roomFacility":roomFacility},function(result){
             alert("更新成功");
             window.location.href = "list";
         });
