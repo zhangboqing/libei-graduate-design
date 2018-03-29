@@ -42,19 +42,47 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 <div class="form_boxC">
 <p>"<span class="f_cB">*</span>"号为必填项目</p>
 <table cellpadding="0" cellspacing="0">
-<tr>
-<th width="100">姓名 <span class="f_cB">*</span></th>
-<td><div class="txtbox floatL" style="width:100px;">
-    <input hidden="true" name="name" id="memberId" type="text" size="5" value="${member.memberId}">
-    <input name="name" id="name" type="text" size="5" value="${member.name}"></div></td>
-</tr>
-<tr>
-<th>手机号 <span class="f_cB">*</span></th>
-<td><div class="txtbox floatL" style="width:100px;"><input name="phone" id="phone" type="text" size="5" value="${member.phone}"></div></td>
-</tr>
+<#--<tr>-->
+<#--<th width="100">姓名 <span class="f_cB">*</span></th>-->
+<#--<td><div class="txtbox floatL" style="width:100px;">-->
+    <input hidden="true" name="userId" id="userId" type="text" size="5" value="${userInfo.userId}">
     <tr>
-        <th>身份 <span class="f_cB">*</span></th>
-        <td><div class="txtbox floatL" style="width:100px;"><input name="identity" id="identity" type="text" size="5" value="${member.identity}"></div></td>
+        <th width="100">用户登录名 <span class="f_cB">*</span></th>
+        <td>
+            <#--<div class="txtbox floatL" style="width:100px;">-->
+            <div>${userInfo.userName}</div>
+    </tr>
+    <tr>
+        <th width="100">真实姓名 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:100px;">
+            <input name="realName" id="realName" type="text" size="9" value="${userInfo.stuName}"></div></td>
+    </tr>
+    <tr>
+        <th>部门号 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:200px;"><input name="stuNo" id="stuNo" type="text" size="20" value="${userInfo.stuNo}"></div></td>
+    </tr>
+    <tr>
+        <th>手机号码 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:200px;"><input name="phone" id="phone" type="text" size="20" value="${userInfo.phone}"></div></td>
+    </tr>
+    <tr>
+        <th>年龄 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:70px;"><input name="age" id="age" type="text" size="5" value="${userInfo.age}"></div></td>
+    </tr>
+    <tr>
+        <th>性别 <span class="f_cB">*</span></th>
+        <td><div>
+            男：<input type="radio" name="sex" value="0" layout_weight="1" <#if userInfo.sex == 0>
+                     checked
+        </#if>>
+            女：<input type="radio" name="sex" value="1" layout_weight="1" <#if userInfo.sex == 1>
+                     checked
+        </#if>>
+        </div></td>
+    </tr>
+    <tr>
+        <th>部门信息信息 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:400px;"><input name="classInfo" id="classInfo" type="text" size="50" value="${userInfo.classInfo}"></div></td>
     </tr>
 </table>
 </div>
@@ -70,23 +98,43 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 
 <script type="text/javascript">
     function checkAndSubmit(){
-        var name = document.getElementById('name').value.trim();
+        var userName = document.getElementById('userName').value.trim();
+        var password = document.getElementById('password').value.trim();
+        var realName = document.getElementById('realName').value.trim();
+        var age = document.getElementById('age').value.trim();
+        var classInfo = document.getElementById('classInfo').value.trim();
+        var stuNo = document.getElementById('stuNo').value.trim();
         var phone = document.getElementById('phone').value.trim();
-        var identity = document.getElementById('identity').value.trim();
-        var memberId = document.getElementById('memberId').value.trim();
 
-        if (name == null || name == '') {
-            alert("姓名不能为空！！！")
+        var sex = $('input[name="sex"]:checked ').val();
+
+        if (userName == null || userName == '') {
+            alert("登录用户名不能为空！！！")
+            return;
+        }else if (password == null || password == '') {
+            alert("密码不能为空！！！")
+            return;
+        }else if (realName == null || realName == '') {
+            alert("真实姓名不能为空！！！")
+            return;
+        }else if (age == null || age == '') {
+            alert("年龄不能为空！！！")
             return;
         } else if (phone == null || phone == '') {
-            alert("手机号不能为空！！！")
+            alert("手机号码不能为空！！！")
             return;
-        } else if (identity == null || identity == '') {
-            alert("身份不能为空！！！")
+        } else if (sex == null || sex == '') {
+            alert("请选择性别！！！")
+            return;
+        } else if (classInfo == null || classInfo == '') {
+            alert("部门信息不能为空！！！")
+            return;
+        } else if (stuNo == null || stuNo == '') {
+            alert("部门号不能为空！！！")
             return;
         }
 
-        $.post("update",{"memberId":memberId,"name":name,"phone":phone,"identity":identity},function(result){
+        $.post("update",{"userId":userId,"realName":realName,"phone":phone,"age":age,"sex":sex,"classInfo":classInfo,"stuNo":stuNo},function(result){
             alert("更新成功");
             window.location.href = "list";
         });

@@ -1,15 +1,18 @@
 package com.libei.service.impl;
 
+import com.libei.common.utils.JodaTimeUtils;
+import com.libei.constant.BusinessConstant;
 import com.libei.dao.mysql.LbMeetingRoomDao;
+import com.libei.dao.mysql.LbMeetingRoomReserveRecordDao;
 import com.libei.domain.entity.LbMeetingRoom;
 import com.libei.domain.form.MeetingRoomAddForm;
 import com.libei.domain.form.MeetingRoomUpdateForm;
 import com.libei.domain.result.MeetingRoomListResult;
+import com.libei.domain.result.MeetingRoomRecordListResult;
 import com.libei.service.MeetingRoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
 
 import java.util.List;
 
@@ -22,6 +25,8 @@ public class MeetingRoomServiceImpl implements MeetingRoomService {
 
     @Autowired
     private LbMeetingRoomDao lbMeetingRoomDao;
+    @Autowired
+    private LbMeetingRoomReserveRecordDao lbMeetingRoomReserveRecordDao;
 
     @Override
     public List<MeetingRoomListResult> findList() {
@@ -31,23 +36,13 @@ public class MeetingRoomServiceImpl implements MeetingRoomService {
             return list;
         }
 
-        for (MeetingRoomListResult meetingRoomListResult : list) {
-            Integer isReserve = meetingRoomListResult.getIsReserve();
-            if (isReserve.equals(0)) {
-                meetingRoomListResult.setIsReserveDesc("空闲");
-            } else {
-                meetingRoomListResult.setIsReserveDesc("已预定");
-            }
+        for (MeetingRoomListResult room : list) {
 
-            if (!StringUtils.isEmpty(meetingRoomListResult.getName()) &&
-                    !StringUtils.isEmpty(meetingRoomListResult.getPhone()) &&
-                    !StringUtils.isEmpty(meetingRoomListResult.getIdentity())) {
-                meetingRoomListResult.setMemberDesc(meetingRoomListResult.getName()+"-"+meetingRoomListResult.getPhone()
-                +"-"+meetingRoomListResult.getId());
-            } else {
-                meetingRoomListResult.setMemberDesc("");
-            }
+            //查询该房间预定人数
+            Integer currentReservedNum = lbMeetingRoomReserveRecordDao.findCurrentReservedNumByRoomId(room.getRoomId());
+            room.setCurrentReservedNum(currentReservedNum);
         }
+
 
         return list;
     }
@@ -56,6 +51,8 @@ public class MeetingRoomServiceImpl implements MeetingRoomService {
     public void addMeetingRoom(MeetingRoomAddForm form) {
         LbMeetingRoom meetingRoom = new LbMeetingRoom();
         meetingRoom.setRoomNo(form.getRoomNo());
+        meetingRoom.setRoomCanInNumber(form.getRoomCanInNumber());
+        meetingRoom.setRoomFacility(form.getRoomFacility());
 
         lbMeetingRoomDao.insertSelective(meetingRoom);
     }
@@ -72,19 +69,26 @@ public class MeetingRoomServiceImpl implements MeetingRoomService {
 
     @Override
     public void meetingRoomUpdate(MeetingRoomUpdateForm form) {
-        LbMeetingRoom one = lbMeetingRoomDao.findOne(form.getId());
-        one.setRoomNo(form.getRoomNo());
+        LbMeetingRoom one = lbMeetingRoomDao.findOne(form.getRoomId());
+        one.setRoomCanInNumber(form.getRoomCanInNumber());
+        one.setRoomFacility(form.getRoomFacility());
 
         lbMeetingRoomDao.updateByIdSelective(one);
     }
 
     @Override
-    public void meetingRoomOrder(Integer id, Integer memberId) {
-        LbMeetingRoom one = lbMeetingRoomDao.findOne(id);
-        one.setIsReserve(1);
-        one.setMemberId(memberId);
+    public List<MeetingRoomRecordListResult> findRecordList(Integer roomId) {
 
-        lbMeetingRoomDao.updateByIdSelective(one);
+        List<MeetingRoomRecordListResult> resultList = lbMeetingRoomReserveRecordDao.findRecordList(roomId);
+        if (!CollectionUtils.isEmpty(resultList)) {
+            for (MeetingRoomRecordListResult result : resultList) {
+                result.setStatusDesc(BusinessConstant.MeetingRoome.transforStatusValue(result.getStatus()));
+                result.setReserveStartTimeDesc(JodaTimeUtils.timestampToString(result.getReserveStartTime(), JodaTimeUtils.DateFormat.DATETIME_FORMAT));
+                result.setReserveEndTimeDesc(JodaTimeUtils.timestampToString(result.getReserveEndTime(), JodaTimeUtils.DateFormat.DATETIME_FORMAT));
+            }
+        }
+        return resultList;
     }
+
 
 }

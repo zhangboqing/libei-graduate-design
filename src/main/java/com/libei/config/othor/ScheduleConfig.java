@@ -1,4 +1,4 @@
-package com.libei.config;
+package com.libei.config.othor;
 
 import org.springframework.scheduling.annotation.Scheduled;
 

@@ -9,4 +9,8 @@ import lombok.Data;
 @Data
 public class MeetingRoomAddForm {
     private Integer roomNo;
+
+    private Integer roomCanInNumber;
+
+    private String roomFacility;
 }

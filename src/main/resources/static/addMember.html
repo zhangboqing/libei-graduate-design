@@ -41,17 +41,43 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 <div class="form_boxC">
 <p>"<span class="f_cB">*</span>"号为必填项目</p>
 <table cellpadding="0" cellspacing="0">
-<tr>
-<th width="100">姓名 <span class="f_cB">*</span></th>
-<td><div class="txtbox floatL" style="width:200px;"><input name="name" id="name" type="text" size="20" value=""></div></td>
-</tr>
-<tr>
-<th>手机号 <span class="f_cB">*</span></th>
-<td><div class="txtbox floatL" style="width:200px;"><input name="phone" id="phone" type="text" size="20" value=""></div></td>
-</tr>
     <tr>
-        <th>身份 <span class="f_cB">*</span></th>
-        <td><div class="txtbox floatL" style="width:200px;"><input name="identity" id="identity" type="text" size="20" value=""></div></td>
+        <th width="100">登录用户名 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:100px;">
+            <input name="userName" id="userName" type="text" size="9"></div></td>
+    </tr>
+    <tr>
+        <th width="100">登录密码 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:100px;">
+            <input name="password" id="password" type="text" size="9" ></div></td>
+    </tr>
+    <tr>
+        <th width="100">真实姓名 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:100px;">
+            <input name="realName" id="realName" type="text" size="9" ></div></td>
+    </tr>
+    <tr>
+        <th>部门号 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:200px;"><input name="stuNo" id="stuNo" type="text" size="20" ></div></td>
+    </tr>
+    <tr>
+        <th>手机号码 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:200px;"><input name="phone" id="phone" type="text" size="20" ></div></td>
+    </tr>
+    <tr>
+        <th>年龄 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:70px;"><input name="age" id="age" type="text" size="5" ></div></td>
+    </tr>
+    <tr>
+        <th>性别 <span class="f_cB">*</span></th>
+        <td><div>
+            男：<input type="radio" name="sex" value="0" layout_weight="1" >
+            女：<input type="radio" name="sex" value="1" layout_weight="1" >
+        </div></td>
+    </tr>
+    <tr>
+        <th>部门信息 <span class="f_cB">*</span></th>
+        <td><div class="txtbox floatL" style="width:400px;"><input name="classInfo" id="classInfo" type="text" size="50" ></div></td>
     </tr>
 </table>
 </div>
@@ -67,22 +93,42 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 
 <script type="text/javascript">
     function checkAndSubmit(){
-        var name = document.getElementById('name').value.trim();
+        var userName = document.getElementById('userName').value.trim();
+        var password = document.getElementById('password').value.trim();
+        var realName = document.getElementById('realName').value.trim();
+        var age = document.getElementById('age').value.trim();
+        var classInfo = document.getElementById('classInfo').value.trim();
+        var stuNo = document.getElementById('stuNo').value.trim();
         var phone = document.getElementById('phone').value.trim();
-        var identity = document.getElementById('identity').value.trim();
 
-        if (name == null || name == '') {
-            alert("姓名不能为空！！！")
+        var sex = $('input[name="sex"]:checked ').val();
+
+        if (userName == null || userName == '') {
+            alert("登录用户名不能为空！！！")
+            return;
+        }else if (password == null || password == '') {
+            alert("密码不能为空！！！")
+            return;
+        }else if (realName == null || realName == '') {
+            alert("真实姓名不能为空！！！")
+            return;
+        }else if (age == null || age == '') {
+            alert("年龄不能为空！！！")
             return;
         } else if (phone == null || phone == '') {
-            alert("手机号不能为空！！！")
+            alert("手机号码不能为空！！！")
             return;
-        } else if (identity == null || identity == '') {
-            alert("身份不能为空！！！")
+        } else if (sex == null || sex == '') {
+            alert("请选择性别！！！")
+            return;
+        } else if (classInfo == null || classInfo == '') {
+            alert("部门信息不能为空！！！")
+            return;
+        } else if (stuNo == null || stuNo == '') {
+            alert("部门号不能为空！！！")
             return;
         }
-
-        $.post("member/add",{"name":name,"phone":phone,"identity":identity},function(result){
+        $.post("member/add",{"userName":userName,"password":password,"realName":realName,"phone":phone,"age":age,"sex":sex,"classInfo":classInfo,"stuNo":stuNo},function(result){
             alert("success")
         });
     }

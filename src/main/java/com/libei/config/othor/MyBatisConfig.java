@@ -1,4 +1,4 @@
-package com.libei.config;
+package com.libei.config.othor;
 
 import com.github.pagehelper.PageHelper;
 import org.apache.ibatis.plugin.Interceptor;

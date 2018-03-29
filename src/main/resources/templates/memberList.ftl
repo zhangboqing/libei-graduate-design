@@ -30,21 +30,29 @@
 <table cellpadding="0" cellspacing="0">
 <tr>
 <th>用户ID</th>
-<th>姓名</th>
+<th>用户登录名</th>
+<th>用户姓名</th>
+<th>部门号</th>
 <th>手机号</th>
-<th>身份</th>
+<th>年龄</th>
+<th>性别</th>
+<th>部门信息</th>
     <th>操作</th>
 </tr>
 
-     <#list memberList as p>
+     <#list userList as p>
      <tr>
-     <td>${p.memberId}</td>
-     <td>${p.name}</td>
+     <td>${p.userId}</td>
+     <td>${p.userName}</td>
+     <td>${p.stuName}</td>
+     <td>${p.stuNo}</td>
      <td>${p.phone}</td>
-     <td>${p.identity}</td>
+     <td>${p.age}</td>
+     <td>${p.sexDesc}</td>
+     <td>${p.classInfo}</td>
          <td>
-         <a href="edit?memberId=${p.memberId}">编辑</a>
-         <a href="delete?memberId=${p.memberId}"> 删除</a>
+         <a href="edit?userId=${p.userId}">编辑</a>
+         <a href="delete?userId=${p.userId}"> 删除</a>
          </td>
      </tr>
      </#list>

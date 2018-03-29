@@ -8,19 +8,15 @@ import lombok.Data;
  */
 @Data
 public class MeetingRoomListResult {
-    private Integer id;
+    private Integer roomId;
 
     private Integer roomNo;
 
-    private Integer isReserve;
+    private Integer roomCanInNumber;
 
-    private String isReserveDesc;
+    private String roomFacility;
 
-    private Integer memberId;
+    //当前预定人数
+    private Integer currentReservedNum;
 
-    private String name;
-    private String phone;
-    private String identity;
-
-    private String memberDesc;
 }

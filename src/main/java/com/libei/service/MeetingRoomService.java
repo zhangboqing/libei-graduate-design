@@ -4,6 +4,7 @@ import com.libei.domain.entity.LbMeetingRoom;
 import com.libei.domain.form.MeetingRoomAddForm;
 import com.libei.domain.form.MeetingRoomUpdateForm;
 import com.libei.domain.result.MeetingRoomListResult;
+import com.libei.domain.result.MeetingRoomRecordListResult;
 
 import java.util.List;
 
@@ -23,5 +24,6 @@ public interface MeetingRoomService {
 
     void meetingRoomUpdate(MeetingRoomUpdateForm form);
 
-    void meetingRoomOrder(Integer id, Integer memberId);
+
+    List<MeetingRoomRecordListResult> findRecordList(Integer roomId);
 }

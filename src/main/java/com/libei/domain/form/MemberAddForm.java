@@ -9,7 +9,19 @@ import lombok.Data;
 @Data
 public class MemberAddForm {
 
-    private String name;
+    private String userName;
+
+    private String password;
+
+    private String age;
+
+    private Integer sex;
+
+    private String classInfo;
+
+    private String stuNo;
+
+    private String realName;
+
     private String phone;
-    private String identity;
 }

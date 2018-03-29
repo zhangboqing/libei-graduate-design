@@ -1,18 +1,20 @@
 package com.libei.domain.entity;
 
 public class LbLoginUser {
-    private Integer id;
+    private Integer userId;
 
     private String userName;
 
     private String password;
 
-    public Integer getId() {
-        return id;
+    private Integer type;
+
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getUserName() {
@@ -29,5 +31,13 @@ public class LbLoginUser {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
     }
 }

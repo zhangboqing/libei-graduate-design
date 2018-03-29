@@ -1,7 +1,9 @@
 package com.libei.service.impl;
 
 import com.libei.dao.mysql.LbLoginUserDao;
+import com.libei.dao.mysql.LbUserInfoDao;
 import com.libei.domain.entity.LbLoginUser;
+import com.libei.domain.entity.LbUserInfo;
 import com.libei.domain.form.UserLoginForm;
 import com.libei.domain.form.UserRegisterForm;
 import com.libei.service.UserService;
@@ -17,6 +19,8 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private LbLoginUserDao lbLoginUserDao;
+    @Autowired
+    private LbUserInfoDao lbUserInfoDao;
 
 
     @Override
@@ -36,5 +40,9 @@ public class UserServiceImpl implements UserService {
         lbLoginUser.setPassword(form.getPassword());
 
         lbLoginUserDao.insertSelective(lbLoginUser);
+
+        LbUserInfo userInfo = new LbUserInfo();
+        userInfo.setUserId(lbLoginUser.getUserId());
+        lbUserInfoDao.insertSelective(userInfo);
     }
 }
