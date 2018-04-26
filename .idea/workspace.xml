@@ -6,100 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acff4687-d8a9-4ef8-b6ec-e0a0815a0752" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/dateIco.png" afterPath="$PROJECT_DIR$/target/classes/static/css/dateIco.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin01.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin02.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin03.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin04.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin07.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin07.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin08.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin08.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin09.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin09.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin10.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin11.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin111.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin111.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin12.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin12.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin13.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin13.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin14.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin15.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin16.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin17.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin18.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin19.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin20.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin20.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin21.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin21.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coin222.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coin222.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coinL1.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coinL1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/coinL2.png" afterPath="$PROJECT_DIR$/target/classes/static/img/coinL2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/delete.png" afterPath="$PROJECT_DIR$/target/classes/static/img/delete.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/logBanner.png" afterPath="$PROJECT_DIR$/target/classes/static/img/logBanner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/logLOGO.png" afterPath="$PROJECT_DIR$/target/classes/static/img/logLOGO.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/logName.png" afterPath="$PROJECT_DIR$/target/classes/static/img/logName.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/logPwd.png" afterPath="$PROJECT_DIR$/target/classes/static/img/logPwd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/logYZM.png" afterPath="$PROJECT_DIR$/target/classes/static/img/logYZM.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/no.png" afterPath="$PROJECT_DIR$/target/classes/static/img/no.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/ok.png" afterPath="$PROJECT_DIR$/target/classes/static/img/ok.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/shanchu.png" afterPath="$PROJECT_DIR$/target/classes/static/img/shanchu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/topic.png" afterPath="$PROJECT_DIR$/target/classes/static/img/topic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/img/update.png" afterPath="$PROJECT_DIR$/target/classes/static/img/update.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/libei-graduate-design-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/libei-graduate-design-0.0.1-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/addMeetingRoom.html" afterPath="$PROJECT_DIR$/target/classes/static/addMeetingRoom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/addMember.html" afterPath="$PROJECT_DIR$/target/classes/static/addMember.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/base.css" afterPath="$PROJECT_DIR$/target/classes/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/component.css" afterPath="$PROJECT_DIR$/target/classes/static/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/css.css" afterPath="$PROJECT_DIR$/target/classes/static/css/css.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/hack.css" afterPath="$PROJECT_DIR$/target/classes/static/css/hack.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/haiersoft.css" afterPath="$PROJECT_DIR$/target/classes/static/css/haiersoft.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/manhuaDate.1.0.css" afterPath="$PROJECT_DIR$/target/classes/static/css/manhuaDate.1.0.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/normalize.css" afterPath="$PROJECT_DIR$/target/classes/static/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/page.css" afterPath="$PROJECT_DIR$/target/classes/static/css/page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/page1.css" afterPath="$PROJECT_DIR$/target/classes/static/css/page1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/print.css" afterPath="$PROJECT_DIR$/target/classes/static/css/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/public.css" afterPath="$PROJECT_DIR$/target/classes/static/css/public.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/reset.css" afterPath="$PROJECT_DIR$/target/classes/static/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/changepwd.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/changepwd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/head.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/head2.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/head2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/index.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/left.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/left.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/main.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/p1.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/p1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/p2.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/p2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/p3.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/p3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/tab.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/tab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/user.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/useradd.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/useradd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/demo/userupdate.html" afterPath="$PROJECT_DIR$/target/classes/static/demo/userupdate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/head.html" afterPath="$PROJECT_DIR$/target/classes/static/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/ajaxfileupload.js" afterPath="$PROJECT_DIR$/target/classes/static/js/ajaxfileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/classie.js" afterPath="$PROJECT_DIR$/target/classes/static/js/classie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-1.10.1.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-1.10.1.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.mousewheel.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.mousewheel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/manhuaDate.1.0.js" afterPath="$PROJECT_DIR$/target/classes/static/js/manhuaDate.1.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/modernizr.custom.js" afterPath="$PROJECT_DIR$/target/classes/static/js/modernizr.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/page.js" afterPath="$PROJECT_DIR$/target/classes/static/js/page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/popwin.js" afterPath="$PROJECT_DIR$/target/classes/static/js/popwin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/public.js" afterPath="$PROJECT_DIR$/target/classes/static/js/public.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/rollover.js" afterPath="$PROJECT_DIR$/target/classes/static/js/rollover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/scroll.js" afterPath="$PROJECT_DIR$/target/classes/static/js/scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/select.js" afterPath="$PROJECT_DIR$/target/classes/static/js/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/side.js" afterPath="$PROJECT_DIR$/target/classes/static/js/side.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/left.html" afterPath="$PROJECT_DIR$/target/classes/static/left.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/main.html" afterPath="$PROJECT_DIR$/target/classes/static/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/demo/login.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/demo/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/editMeetingRoom.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/editMeetingRoom.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/editMember.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/editMember.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/loginAndRegister.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/loginAndRegister.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/meetingRoomList.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/meetingRoomList.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/memberList.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/memberList.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/orderMeetingRoomPage.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/orderMeetingRoomPage.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,7 +25,7 @@
     <favorites_list name="libei-graduate-design" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -318,12 +225,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei-graduate-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libei" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -370,7 +352,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -860,12 +841,13 @@
       <workItem from="1521454405679" duration="56000" />
       <workItem from="1521600815782" duration="453000" />
       <workItem from="1521622862983" duration="59000" />
-      <workItem from="1524713476691" duration="5350000" />
+      <workItem from="1524713476691" duration="5719000" />
+      <workItem from="1524747457386" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114927000" />
+    <option name="totallyTimeSpent" value="115711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -892,15 +874,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66861314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66861314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4019449" sideWeight="0.48759124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4076175" sideWeight="0.48759124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33306322" sideWeight="0.512987" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37196112" sideWeight="0.51240873" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -908,6 +889,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -919,7 +901,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -929,19 +911,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.529927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.529927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.66861314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66861314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4019449" sideWeight="0.48759124" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40842786" sideWeight="0.48759124" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33306322" sideWeight="0.512987" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -983,13 +965,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/meetingRoomList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/meetingRoomList2.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1296,7 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1377,6 +1345,11 @@
           <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/static/img/meetingRoomLogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
