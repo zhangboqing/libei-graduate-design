@@ -81,7 +81,7 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
         </div></td>
     </tr>
     <tr>
-        <th>部门信息信息 <span class="f_cB">*</span></th>
+        <th>部门信息 <span class="f_cB">*</span></th>
         <td><div class="txtbox floatL" style="width:400px;"><input name="classInfo" id="classInfo" type="text" size="50" value="${userInfo.classInfo}"></div></td>
     </tr>
 </table>
@@ -98,8 +98,9 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 
 <script type="text/javascript">
     function checkAndSubmit(){
-        var userName = document.getElementById('userName').value.trim();
-        var password = document.getElementById('password').value.trim();
+//        var userName = document.getElementById('userName').value.trim();
+//        var password = document.getElementById('password').value.trim();
+        var userId = document.getElementById('userId').value.trim();
         var realName = document.getElementById('realName').value.trim();
         var age = document.getElementById('age').value.trim();
         var classInfo = document.getElementById('classInfo').value.trim();
@@ -108,13 +109,14 @@ $("body").click(function(i){ !$(i.target).parents(".select").first().is(s) ? _hi
 
         var sex = $('input[name="sex"]:checked ').val();
 
-        if (userName == null || userName == '') {
-            alert("登录用户名不能为空！！！")
-            return;
-        }else if (password == null || password == '') {
-            alert("密码不能为空！！！")
-            return;
-        }else if (realName == null || realName == '') {
+//        if (userName == null || userName == '') {
+//            alert("登录用户名不能为空！！！")
+//            return;
+//        }else if (password == null || password == '') {
+//            alert("密码不能为空！！！")
+//            return;
+//        }else
+        if (realName == null || realName == '') {
             alert("真实姓名不能为空！！！")
             return;
         }else if (age == null || age == '') {
