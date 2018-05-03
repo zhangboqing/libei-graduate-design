@@ -6,6 +6,7 @@
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/config/interceptor/LoginVerifyInterceptor.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/config/othor/WebConfig.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/dao/mysql/LbMeetingRoomReserveRecordDao.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/controller/LbNoticeController.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/form/MeetingRoomOrderForm.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/config/MyBatisConfig2.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/service/UserService.java
@@ -15,7 +16,9 @@
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/LibeiGraduateDesignApplication.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/controller/LbUserController.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/form/MemberAddForm.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/form/NoticeAddForm.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/controller/LbUserInfoController.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/form/NoticeUpdateForm.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/config/Swagger2Config.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/dao/mysql/LbMeetingRoomDao.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/service/MeetingRoomService.java
@@ -36,5 +39,8 @@
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/dao/mysql/LbLoginUserDao.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/result/LoginUserInfoResult.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/service/impl/MeetingRoomServiceImpl.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/entity/LbNotice.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/config/othor/ScheduleConfig.java
 /Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/form/MeetingRoomAddForm.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/dao/mysql/LbNoticeDao.java
+/Users/zhangboqing/Software/MyGithub/libei-graduate-design/src/main/java/com/libei/domain/result/LoginNoticeResult.java

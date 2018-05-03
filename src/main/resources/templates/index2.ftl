@@ -15,7 +15,7 @@
 	framespacing="0" frameborder="no" border="0">
 	<frame
 			src="${base}/left2.html" name="leftmenu" id="mainFrame" title="mainFrame">
-<frame src="${base}/main.html" name="main" scrolling="yes" noresize="noresize"
+<frame src="${base}/notice/list/view" name="main" scrolling="yes" noresize="noresize"
        id="rightFrame" title="rightFrame">
 </frameset>
 </frameset>
