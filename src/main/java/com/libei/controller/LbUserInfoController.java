@@ -133,6 +133,7 @@ public class LbUserInfoController {
 
         LbUserInfo userInfo = lbUserInfoDao.findByUserId(form.getUserId());
         BeanUtils.copyProperties(form,userInfo);
+        userInfo.setStuName(form.getRealName());
 
         lbUserInfoDao.updateByIdSelective(userInfo);
         return "success";
