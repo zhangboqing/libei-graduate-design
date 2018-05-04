@@ -43,6 +43,15 @@ CREATE TABLE `lb_meeting_room_reserve_record` (
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COMMENT='会议室预定记录表';
 
 
+DROP TABLE IF EXISTS `lb_notice`;
+CREATE TABLE `lb_notice` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `content` varchar(1024) NOT NULL DEFAULT '' COMMENT '公告内容',
+  `release_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '发布时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COMMENT='发布公告';
+
+
 
 
 
