@@ -202,9 +202,12 @@ public class LbMeetingRoomController {
      * @throws Exception
      */
     @RequestMapping(value = "/viewOrderRecordList2")
-    public String meetingRoomRecordList2(Integer roomId, Model model) throws Exception {
+    public String meetingRoomRecordList2(Integer roomId, Model model,HttpSession session) throws Exception {
 
-        List<MeetingRoomRecordListResult> recordList = meetingRoomService.findRecordList(roomId);
+        //获取当前用户信息
+        LbLoginUser loginUser = (LbLoginUser) session.getAttribute(BusinessConstant.USER_LOGIN_KEY);
+
+        List<MeetingRoomRecordListResult> recordList = meetingRoomService.meetingRoomRecordList2(loginUser.getUserId());
         model.addAttribute("recordList", recordList);
         return "meetingRoomRecordList2";
     }

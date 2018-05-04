@@ -90,5 +90,18 @@ public class MeetingRoomServiceImpl implements MeetingRoomService {
         return resultList;
     }
 
+    @Override
+    public List<MeetingRoomRecordListResult> meetingRoomRecordList2(Integer userId) {
+        List<MeetingRoomRecordListResult> resultList = lbMeetingRoomReserveRecordDao.findRecordList2(userId);
+        if (!CollectionUtils.isEmpty(resultList)) {
+            for (MeetingRoomRecordListResult result : resultList) {
+                result.setStatusDesc(BusinessConstant.MeetingRoome.transforStatusValue(result.getStatus()));
+                result.setReserveStartTimeDesc(JodaTimeUtils.timestampToString(result.getReserveStartTime(), JodaTimeUtils.DateFormat.DATETIME_FORMAT));
+                result.setReserveEndTimeDesc(JodaTimeUtils.timestampToString(result.getReserveEndTime(), JodaTimeUtils.DateFormat.DATETIME_FORMAT));
+            }
+        }
+        return resultList;
+    }
+
 
 }

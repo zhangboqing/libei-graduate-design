@@ -26,4 +26,6 @@ public interface MeetingRoomService {
 
 
     List<MeetingRoomRecordListResult> findRecordList(Integer roomId);
+
+    List<MeetingRoomRecordListResult> meetingRoomRecordList2(Integer userId);
 }

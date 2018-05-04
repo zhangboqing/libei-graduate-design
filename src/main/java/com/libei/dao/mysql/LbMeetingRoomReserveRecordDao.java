@@ -37,6 +37,11 @@ public interface LbMeetingRoomReserveRecordDao {
     @Select("select * from lb_meeting_room_reserve_record a left join lb_meeting_room b on b.room_id = a.room_id left join lb_user_info c on c.user_id = a.user_id where a.room_id = #{roomId} order by a.id desc")
     List<MeetingRoomRecordListResult> findRecordList(@Param("roomId") Integer roomId);
 
+    @Select("select * from lb_meeting_room_reserve_record a left join lb_meeting_room b on b.room_id = a.room_id left join lb_user_info c on c.user_id = a.user_id where a.user_id = #{userId} order by a.id desc")
+    List<MeetingRoomRecordListResult> findRecordList2(Integer userId);
+
     @Update("update lb_meeting_room_reserve_record set status = #{status} where id = #{id}")
     void updateStatusById(@Param("status") int status, @Param("id") Integer id);
+
+
 }
