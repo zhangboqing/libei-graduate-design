@@ -34,7 +34,7 @@ public interface LbMeetingRoomReserveRecordDao {
             ")")
     List<LbMeetingRoomReserveRecord> findByReserveStartTimeDescAndReserveEndTimeDesc(@Param("roomId") Integer roomId,@Param("reserveStartTimeDesc") Long reserveStartTimeDesc,@Param("reserveEndTimeDesc") Long reserveEndTimeDesc);
 
-    @Select("select * from lb_meeting_room_reserve_record a left join lb_meeting_room b on b.room_id = a.room_id left join lb_user_info c on c.user_id = a.user_id order by a.id desc")
+    @Select("select * from lb_meeting_room_reserve_record a left join lb_meeting_room b on b.room_id = a.room_id left join lb_user_info c on c.user_id = a.user_id where a.room_id = #{roomId} order by a.id desc")
     List<MeetingRoomRecordListResult> findRecordList(@Param("roomId") Integer roomId);
 
     @Update("update lb_meeting_room_reserve_record set status = #{status} where id = #{id}")

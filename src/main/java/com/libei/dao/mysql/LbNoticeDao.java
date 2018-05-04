@@ -19,7 +19,7 @@ public interface LbNoticeDao {
 
     int updateById(LbNotice record);
 
-    @Select("select * from lb_notice")
+    @Select("select * from lb_notice order by release_time desc")
     List<LoginNoticeResult> findList();
 
 }
