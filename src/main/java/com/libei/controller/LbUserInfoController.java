@@ -2,6 +2,7 @@ package com.libei.controller;
 
 import com.libei.constant.BusinessConstant;
 import com.libei.dao.mysql.LbLoginUserDao;
+import com.libei.dao.mysql.LbMeetingRoomReserveRecordDao;
 import com.libei.dao.mysql.LbUserInfoDao;
 import com.libei.domain.entity.LbLoginUser;
 import com.libei.domain.entity.LbUserInfo;
@@ -31,6 +32,8 @@ public class LbUserInfoController {
     private LbLoginUserDao lbLoginUserDao;
     @Autowired
     private LbUserInfoDao lbUserInfoDao;
+    @Autowired
+    private LbMeetingRoomReserveRecordDao lbMeetingRoomReserveRecordDao;
 
     /**
      * 成员列表
@@ -92,7 +95,9 @@ public class LbUserInfoController {
     public String  deleteMember(Integer userId,Model model) throws Exception {
         lbLoginUserDao.deleteById(userId);
 
+        //删除用户关联信息
         lbUserInfoDao.deleteByUserId(userId);
+        lbMeetingRoomReserveRecordDao.deleteByUserId(userId);
 
         return memberList(model);
     }

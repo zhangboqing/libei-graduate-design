@@ -108,7 +108,11 @@ public class LbMeetingRoomController {
     @RequestMapping(value = "/delete")
     public String deleteMeetingRoom(Integer roomId, Model model) throws Exception {
 
+
         meetingRoomService.deleteMeetingRoom(roomId);
+        //删除会议室关联的记录
+        lbMeetingRoomReserveRecordDao.deleteByRoomId(roomId);
+
         return meetingRoomList(model);
     }
 
@@ -147,7 +151,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 会议室预定记录列表
+     * 会议室预定记录列表 - 管理员
      *
      * @param model
      * @return
@@ -195,7 +199,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 会议室预定记录列表
+     * 会议室预定记录列表 - 用户
      *
      * @param model
      * @return
@@ -213,7 +217,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 会议室预定页面
+     * 会议室预定页面 - 管理员
      *
      * @param roomId
      * @param model
@@ -233,7 +237,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 会议室预定页面
+     * 会议室预定页面 - 用户
      *
      * @param roomId
      * @param model
@@ -255,7 +259,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 预定
+     * 预定 - 管理员
      *
      * @param form
      * @param model
@@ -287,7 +291,7 @@ public class LbMeetingRoomController {
 
 
     /**
-     * 预定
+     * 预定 - 用户
      *
      * @param form
      * @param model
@@ -318,7 +322,7 @@ public class LbMeetingRoomController {
     }
 
     /**
-     * 校验方法
+     * 校验会议室是否被预定的方法
      *
      * @param roomId
      * @param num

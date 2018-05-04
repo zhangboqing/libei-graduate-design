@@ -2,6 +2,7 @@ package com.libei.dao.mysql;
 
 import com.libei.domain.entity.LbMeetingRoomReserveRecord;
 import com.libei.domain.result.MeetingRoomRecordListResult;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -43,5 +44,9 @@ public interface LbMeetingRoomReserveRecordDao {
     @Update("update lb_meeting_room_reserve_record set status = #{status} where id = #{id}")
     void updateStatusById(@Param("status") int status, @Param("id") Integer id);
 
+    @Delete("delete from lb_meeting_room_reserve_record where room_id = #{roomId}")
+    void deleteByRoomId(@Param("roomId") Integer roomId);
 
+    @Delete("delete from lb_meeting_room_reserve_record where user_id = #{userId}")
+    void deleteByUserId(@Param("userId") Integer userId);
 }
